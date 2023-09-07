@@ -1,0 +1,206 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  min-height: 90vh;
+  margin: 5px 10vw;
+}
+
+.badge {
+  height: 5vh;
+  width: 27vw;
+  color: white;
+  font-size: 1.5rem;
+  padding: 4px 8px;
+}
+
+.badgeBox {
+  height: 5vh;
+  padding-bottom: 2px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: rgb(0, 242, 250);
+  animation: CautionAnimationY 2s infinite;
+  animation-timing-function: cubic-bezier(0.52, -0.51, 0.46, 1.19);
+}
+
+@keyframes CautionAnimationY {
+  0% {
+    width: 0px;
+  }
+  20% {
+    width: 5vw;
+  }
+  40% {
+    width: 10vw;
+  }
+  60% {
+    width: 15vw;
+  }
+  80% {
+    width: 20vw;
+  }
+  100% {
+    width: 26vw;
+  }
+}
+
+/* UTILITY CLASSES */
+
+.customFontH3 {
+  font-size: 3rem;
+}
+
+.customFontH4 {
+  font-size: 2rem;
+}
+
+.customFontH5 {
+  font-size: 1.3rem;
+}
+
+.loaderScrollbarBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loaderScrollbar {
+  margin-top: 2vh;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.scrollbarMsg {
+  padding: 5px;
+  margin-top: 4vh;
+  font-size: 1.4rem;
+  border-radius: 10px;
+  background-color: aqua;
+  max-width: 85vw;
+}
+
+/* ****** RESPONSIVENESS ****** */
+
+@media only screen and (max-width: 1300px) {
+  .badgeBox {
+    height: 7vh;
+    padding-bottom: 20px;
+    font-size: 3rem;
+  }
+
+  @keyframes CautionAnimationY {
+    0% {
+      width: 0px;
+    }
+    20% {
+      width: 10vw;
+    }
+    40% {
+      width: 15vw;
+    }
+    60% {
+      width: 22vw;
+    }
+    80% {
+      width: 30vw;
+    }
+    100% {
+      width: 36vw;
+    }
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .customFontH3 {
+    font-size: 2.7rem;
+  }
+
+  .customFontH4 {
+    margin-top: 1.5vh;
+    font-size: 2.2rem;
+  }
+
+  .customFontH5 {
+    margin-top: 0.5vh;
+    font-size: 1.6rem;
+  }
+
+  .badgeBox {
+    height: 5vh;
+    padding-bottom: 5px;
+    font-size: 2rem;
+  }
+
+  @keyframes CautionAnimationY {
+    0% {
+      width: 0px;
+    }
+    20% {
+      width: 19vw;
+    }
+    40% {
+      width: 28vw;
+    }
+    60% {
+      width: 38vw;
+    }
+    80% {
+      width: 45vw;
+    }
+    100% {
+      width: 55vw;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+    padding: 1rem;
+    margin: 5px 2vw;
+  }
+
+  .customFontH3 {
+    font-size: 2.3rem;
+  }
+
+  .customFontH4 {
+    margin-top: 1vh;
+    font-size: 2rem;
+  }
+
+  .customFontH5 {
+    margin-top: 0.5vh;
+    font-size: 1.2rem;
+  }
+
+  .scrollbarMsg {
+    padding: 5px;
+    margin-top: 4vh;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    background-color: aqua;
+  }
+
+  @keyframes CautionAnimationY {
+    0% {
+      width: 0px;
+    }
+    20% {
+      width: 22vw;
+    }
+    40% {
+      width: 32vw;
+    }
+    60% {
+      width: 43vw;
+    }
+    80% {
+      width: 55vw;
+    }
+    100% {
+      width: 70vw;
+    }
+  }
+}

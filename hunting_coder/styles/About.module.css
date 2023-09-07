@@ -1,0 +1,116 @@
+.main {
+  max-width: 60vw;
+  margin: auto;
+  margin-bottom: 8vh;
+}
+
+.titleAbout {
+  margin-top: 3vh;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.headings {
+  margin-top: 4vh;
+  font-size: 2rem;
+}
+
+.headingContent {
+  margin-top: 1vh;
+  font-size: 1.5rem;
+}
+
+.services {
+  margin-top: 1vh;
+  margin-left: 5vw;
+  font-weight: bold;
+  text-decoration: none;
+  list-style: disc;
+}
+
+.link {
+  color: blue;
+  text-decoration: underline;
+}
+
+/*  ***** RESPONSIENESS ***** */
+
+@media only screen and (max-width: 910px) {
+  .main {
+    max-width: 80vw;
+  }
+
+  .titleAbout {
+    margin-top: 3vh;
+    text-align: center;
+    font-size: 2.6rem;
+  }
+
+  .headings {
+    margin-top: 4vh;
+    font-size: 2.2rem;
+  }
+
+  .headingContent {
+    margin-top: 1vh;
+    font-size: 1.5rem;
+  }
+
+  .services {
+    margin-top: 1vh;
+    margin-left: 5vw;
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .main {
+    max-width: 85vw;
+  }
+
+  .titleAbout {
+    margin-top: 3vh;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .headings {
+    margin-top: 4vh;
+    font-size: 1.9rem;
+  }
+
+  .headingContent {
+    margin-top: 1vh;
+    font-size: 1.5rem;
+  }
+
+  .services {
+    margin-top: 1vh;
+    margin-left: 5vw;
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 355px) {
+  .titleAbout {
+    margin-top: 3vh;
+    text-align: center;
+    font-size: 1.7rem;
+  }
+
+  .headings {
+    margin-top: 4vh;
+    font-size: 1.6rem;
+  }
+
+  .headingContent {
+    margin-top: 1vh;
+    font-size: 1.4rem;
+  }
+
+  .services {
+    margin-top: 1vh;
+    margin-left: 5vw;
+    font-size: 1.5rem;
+  }
+}

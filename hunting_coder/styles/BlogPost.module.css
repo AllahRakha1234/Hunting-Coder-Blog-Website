@@ -1,0 +1,70 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  min-height: 90vh;
+  margin: 5px 10vw;
+}
+
+/* UTILITY CLASSES */
+.customFontH1 {
+  margin-top: 4vh;
+  font-size: 3rem;
+}
+
+.customFontH3 {
+  margin-top: 4vh;
+  font-size: 1.5rem;
+}
+
+.customFontH4 {
+  margin-top: 5vh;
+  font-size: 2.2rem;
+}
+
+/* ****** RESPONSIVENESS ****** */
+
+@media only screen and (max-width: 580px) {
+  .main {
+    padding: 1rem;
+    margin: 5px 5vw;
+  }
+
+  .customFontH1 {
+    margin-top: 2vh;
+    font-size: 2.5rem;
+  }
+
+  .customFontH3 {
+    margin-top: 2vh;
+    font-size: 1.5rem;
+  }
+
+  .customFontH4 {
+    margin-top: 5vh;
+    font-size: 2.2rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .main {
+    padding: 1rem;
+    margin: 5px 3vw;
+  }
+
+  .customFontH1 {
+    margin-top: 2vh;
+    font-size: 2.2rem;
+  }
+
+  .customFontH3 {
+    margin-top: 2vh;
+    font-size: 1.3rem;
+  }
+
+  .customFontH4 {
+    margin-top: 5vh;
+    font-size: 2.2rem;
+  }
+}
